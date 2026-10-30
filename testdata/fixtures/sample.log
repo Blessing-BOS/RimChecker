@@ -1,0 +1,11 @@
+[Synthetic fixture - not a real RimWorld log]
+Application starting
+Loading synthetic content
+Warning: synthetic configuration entry is missing
+Normal progress message
+Error: synthetic resource could not be loaded
+Exception: synthetic operation failed
+warning: another synthetic warning
+ERROR: another synthetic error
+Exception and Error: synthetic overlapping keywords
+Application stopped

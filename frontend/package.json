@@ -1,0 +1,26 @@
+{
+  "name": "frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "typecheck": "vue-tsc --noEmit",
+    "dev": "vite",
+    "build:dev": "vue-tsc && vite build --minify false --mode development",
+    "build": "vue-tsc && vite build --mode production",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@wailsio/runtime": "3.0.0",
+    "dompurify": "^3.4.17",
+    "markdown-it": "^15.0.3",
+    "vue": "^3.2.45"
+  },
+  "devDependencies": {
+    "@types/markdown-it": "^14.2.0",
+    "@vitejs/plugin-vue": "^6.0.0",
+    "typescript": "~5.9.3",
+    "vite": "^8.2.4",
+    "vue-tsc": "^3.3.12"
+  }
+}

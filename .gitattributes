@@ -1,0 +1,3 @@
+# Preserve upstream license and generated-binding whitespace without lint noise.
+THIRD_PARTY_NOTICES.txt -whitespace
+frontend/bindings/** -whitespace

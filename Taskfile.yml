@@ -1,0 +1,19 @@
+version: '3'
+tasks:
+  bindings:
+    cmds:
+      - go run github.com/wailsapp/wails/v3/cmd/wails3@v3.0.0 generate bindings -ts -i -d frontend/bindings ./cmd/rimchecker-desktop
+  frontend:
+    deps: [bindings]
+    cmds:
+      - npm --prefix frontend ci
+      - npm --prefix frontend run build
+  build:
+    desc: Windows portable desktop build (adapted from Wails v3 Vue template)
+    deps: [frontend]
+    cmds:
+      - go run github.com/wailsapp/wails/v3/cmd/wails3@v3.0.0 generate syso -arch amd64 -icon build/windows/icon.ico -manifest build/windows/wails.exe.manifest -out cmd/rimchecker-desktop/wails_windows_amd64.syso
+      - go build -tags production -trimpath -ldflags="-s -w -H windowsgui" -o bin/RimChecker.exe ./cmd/rimchecker-desktop
+  run:
+    cmds:
+      - bin/RimChecker.exe

@@ -1,0 +1,8 @@
+{
+  "base_url": "https://api.example.com/v1",
+  "model": "your-model-name",
+  "timeout_seconds": 240,
+  "prompt_file": "prompts/default.md",
+  "max_events": 20,
+  "max_input_chars": 16000
+}

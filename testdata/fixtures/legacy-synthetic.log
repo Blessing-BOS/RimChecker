@@ -1,0 +1,22 @@
+# SYNTHETIC fixture; not a real RimWorld log. Legacy-style syntax only.
+RimWorld 1.6.synthetic startup
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+INFO: Exception handlers registered (synthetic informational message)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+Exception ticking SyntheticPawn42: System.NullReferenceException: 合成空引用
+  at Synthetic.Mod.Tick () [0x00001] in C:\Synthetic\Pawn.cs:42
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch1 (string)
+Error while loading synthetic asset 100 from C:\Synthetic\Mods\ExampleA\item.xml
+  at Synthetic.Loader.Read () [0x00002] in C:\Synthetic\Loader.cs:10
+Verse.Log:Error (string)
+Exception ticking SyntheticPawn42: System.NullReferenceException: 合成空引用
+  at Synthetic.Mod.Tick () [0x00001] in C:\Synthetic\Pawn.cs:42
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch1 (string)
+Warning: 合成配置缺失
+Verse.Log:Warning (string)
+INFO: End synthetic fixture
+Verse.Log:Message (string)

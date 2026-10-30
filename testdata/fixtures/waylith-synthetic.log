@@ -1,0 +1,19 @@
+# SYNTHETIC fixture; not a real RimWorld log. Waylith-style syntax only.
+=== Waylith log ===
+2026-10-30 12:00:00.001 INFO [Verse] Synthetic Exception handlers initialized
+at Synthetic.Info.ExceptionHandler() [0x01]
+2026-10-30 12:00:01.002 ERROR [Verse] System.NullReferenceException: 合成空引用
+at Synthetic.Mod.Tick() in Synthetic.dll:token 0x6000001+0x0
+at Brutal.Logging.LogCategory.Error(LogString`1 message) [0x0]
+2026-10-30 12:00:02.003 INFO [Verse] Synthetic Error recovery is enabled
+at Synthetic.Info.LogError() [0x01]
+2026-10-30 12:00:03.004 ERROR [Verse] System.NullReferenceException: 合成空引用
+at Synthetic.Mod.Tick() in Synthetic.dll:token 0x6000001+0x0
+at Brutal.Logging.LogCategory.Error(LogString`1 message) [0x0]
+2026-10-30 12:00:04.005 ERROR [Verse] System.NullReferenceException: 合成空引用
+at Synthetic.Mod.OtherTick() in Synthetic.dll:token 0x6000002+0x0
+at Brutal.Logging.LogCategory.Error(LogString`1 message) [0x0]
+2026-10-30 12:00:05.006 WARN [Assets] Synthetic missing asset 200
+at Synthetic.Assets.Load() [0x02]
+2026-10-30 12:00:06.007 ERROR [Verse] Synthetic incomplete stack
+  at Synthetic.Crash.Partial(

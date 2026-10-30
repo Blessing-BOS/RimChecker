@@ -1,0 +1,33 @@
+# Local build outputs
+/rimchecker
+/rimchecker.exe
+/bin/
+/dist/
+/coverage.out
+
+# Private logs and local secrets; keep synthetic fixtures tracked
+*.log
+!/testdata/fixtures/sample.log
+!/testdata/fixtures/legacy-synthetic.log
+!/testdata/fixtures/waylith-synthetic.log
+.env
+.env.*
+/config/*.local.json
+*.local.json
+*.pem
+*.key
+*.pfx
+*.p12
+*.dmp
+*.tmp
+*.temp
+*.bak
+*.tsbuildinfo
+__pycache__/
+.DS_Store
+Thumbs.db
+Desktop.ini
+/.tools/
+/frontend/node_modules/
+/frontend/dist/
+*.syso

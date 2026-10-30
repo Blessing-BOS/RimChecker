@@ -1,0 +1,1 @@
+Build frontend/dist with the Wails Taskfile before launching the desktop app.
