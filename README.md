@@ -41,13 +41,7 @@ RimChecker 帮助玩家整理日志中的错误、查看调用堆栈并识别重
 
 程序依赖 Microsoft Edge WebView2 Runtime，发布包不包含该运行时。若系统缺少它，请从 [Microsoft 官方页面](https://developer.microsoft.com/en-us/microsoft-edge/webview2/) 安装 Evergreen Runtime。
 
-目前没有已发布的 Release 下载链接。本 Beta 便携包未做代码签名，也不含安装器或自动更新服务。
-
-可在 PowerShell 中核对下载文件，将输出与同一版本 SHA256 文件比较：
-
-~~~powershell
-Get-FileHash .\RimChecker-v0.9.0-beta-win-x64.zip -Algorithm SHA256
-~~~
+下载链接:https://github.com/Blessing-BOS/RimChecker/releases
 
 ## 使用方法
 
