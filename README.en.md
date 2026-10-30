@@ -41,13 +41,7 @@ Once the release is published:
 
 Microsoft Edge WebView2 Runtime must be installed separately. If it is missing, install the Evergreen Runtime from [Microsoft's official page](https://developer.microsoft.com/en-us/microsoft-edge/webview2/).
 
-No Release download is available yet. This portable beta is unsigned and includes neither an installer nor an automatic updater.
-
-Check the downloaded archive in PowerShell and compare the result with the SHA256 file for the same release:
-
-~~~powershell
-Get-FileHash .\RimChecker-v0.9.0-beta-win-x64.zip -Algorithm SHA256
-~~~
+Dowload Link:https://github.com/Blessing-BOS/RimChecker/releases
 
 ## Usage
 
